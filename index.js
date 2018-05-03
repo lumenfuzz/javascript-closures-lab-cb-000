@@ -18,5 +18,5 @@ function createAnimal(animalType) {
   var sharkCreator = createAnimal('Shark')
   var sharkWithFrickinLaserbeam = diabolicalCreation('Shark','Laserbeam')
   var sharkWithFrickinCannon = diabolicalCreation('Shark','Cannon')
-  return {animalType, 'Cannon'}
+  return sharkWithFrickinCannon
 }
