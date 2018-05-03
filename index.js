@@ -15,8 +15,10 @@ function createAnimal(animalType) {
   function diabolicalCreation(deadlyDevice) {
     return { animalType, deadlyDevice }
   }
-  var sharkCreator = createAnimal('Shark')
-  var sharkWithFrickinLaserbeam = diabolicalCreation('Shark','Laserbeam')
-  var sharkWithFrickinCannon = diabolicalCreation('Shark','Cannon')
-  return sharkWithFrickinCannon
+  return diabolicalCreation
 }
+
+var sharkCreator = createAnimal('Shark')
+var sharkWithFrickinLaserbeam = diabolicalCreation('Shark','Laserbeam')
+var sharkWithFrickinCannon = diabolicalCreation('Shark','Cannon')
+return sharkWithFrickinCannon
