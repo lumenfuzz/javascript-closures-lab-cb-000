@@ -10,3 +10,13 @@ function bumpCounter() {
   }
   return { addBump, getBumps }
 }
+
+function createAnimal(animalType) {
+  function diabolicalCreation(deadlyDevice) {
+    return { animalType, deadlyDevice }
+  }
+  var sharkCreator = createAnimal('Shark')
+  var sharkWithFrickinLaserbeam = diabolicalCreation('Shark','Laserbeam')
+  var sharkWithFrickinCannon = diabolicalCreation('Shark','Cannon')
+  return {animalType, null}
+}
